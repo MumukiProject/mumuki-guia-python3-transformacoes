@@ -1,0 +1,1 @@
+Ao longo deste capítulo, já vimos como manipular nossos dados no nível linhas, mas podemos modificar nossas colunas? Nesta lição aprenderemos sobre ferramentas que nos permitirão alterar a estrutura :construction_site: de nossos `DataFrame`s, vamos começar!
