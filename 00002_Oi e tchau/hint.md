@@ -1,0 +1,1 @@
+Se por acaso não lembra quais eram as colunas,  te passamos agora: `obs`, `category` e  `update_year`. :wink: 
