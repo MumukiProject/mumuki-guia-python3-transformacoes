@@ -1,13 +1,14 @@
-¡Bien! Al final, nuestro lote de datos `cruceros` era algo bastante diferente de lo que pensábamos, ¿verdad? :face_with_hand_over_mouth: Ni siquiera describía cruceros, sino personas que tomaron cruceros y respondieron una encuesta. 🚶🧳
+Bom! No final, nosso lote de dados `cruzeiros` era algo bem diferente do que pensávamos, certo? :face_with_hand_over_mouth:
+ Não estava nem descrevendo cruzeiros, mas pessoas que fizeram cruzeiros e responderam a uma pesquisa. 🚶🧳
 
-De hecho, para evitar mayores confusiones, de ahora en más nos va convenir llamar a nuestra variable `cruceros`... ¡`cruceristas`!
+Na verdade, para evitar mais confusões, a partir de agora devemos chamar nossa variável de `cruzeiros`... `passageiros`!
 
 ```python
-# renombramos la variable
-cruceristas = cruceros
-# eliminamos la referencia anterior, para que no se pueda volver a usar
-# con ese nombre, usando el comando del
-del cruceros
+# renomeie a variável
+passageiros = cruzeiros
+# remova a referência anterior, para que não possa ser reutilizada
+# com esse nome, usando o comando del
+del cruzeiros
 ```
 
-Ejecutá este código en tu cuaderno y nos vemos en el siguiente ejercicio para retomar nuestro transformador viaje. ¡Leven anclas! :anchor: 
+Execute este código em seu caderno e nos vemos a seguir exercício para retomar nossa jornada transformadora.  ncoras para cima! :anchor:
