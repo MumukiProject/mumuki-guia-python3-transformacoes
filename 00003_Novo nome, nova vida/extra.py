@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-cines = pd.DataFrame(
+cinemas = pd.DataFrame(
   [{'loc_code': 6861010, 'prov_id': 6, 'dep_id': 6861, 'obs': np.nan, 'category': 'Salas de cine', 'province': 'Buenos Aires', 'department': 'Vicente Lopez', 'city': 'Munro', 'name': 'Lumiton', 'address': 'Sargento Cabral 2354', 'floor': 's/d', 'zip_code': 1605, 'area_code': 's/d', 'sector': 'Público municipal', 'screens': 1, 'seats': 30, 'update_year': 2018},
  {'loc_code': 34014020, 'prov_id': 34, 'dep_id': 34014, 'obs': np.nan, 'category': 'Salas de cine', 'province': 'Formosa', 'department': 'Formosa', 'city': 'Formosa', 'name': 'Cine Teatro Italia', 'address': 'Av. 25 De Mayo 353', 'floor': 's/d', 'zip_code': 3600, 'area_code': '3717', 'sector': 'Público provincial', 'screens': 1, 'seats': 565, 'update_year': 2018},
  {'loc_code': 82049020, 'prov_id': 82, 'dep_id': 82049, 'obs': np.nan, 'category': 'Salas de cine', 'province': 'Santa Fe', 'department': 'General Obligado', 'city': 'Avellaneda', 'name': 'Luna De Avellaneda', 'address': 'Av. San Martin 810', 'floor': 's/d', 'zip_code': 3561, 'area_code': '3482', 'sector': 'Privado comercial', 'screens': 1, 'seats': 299, 'update_year': 2018},
