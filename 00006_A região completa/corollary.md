@@ -1,0 +1,1 @@
+Agora sim nossa coluna `region` está completa! Agora sim nossa coluna 'região' está completa! Que outros tipos de transformações podemos fazer em nossa tabela?

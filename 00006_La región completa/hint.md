@@ -1,1 +1,0 @@
-Recordá que `fillna` se puede utilizar tanto a nivel `DataFrame` como `Series`. En este caso solo queremos completar la columna `region`. Y nuevamente, no te olvidés de utilizar `inplace=True`.
