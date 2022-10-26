@@ -1,16 +1,16 @@
-- name: Pregunta 1
+- name: Pergunta 1
   keys:
     meaning: 
-      equal: "Un crucerista"
-- name: Pregunta 2
+      equal: "Um passageiro"
+- name: Pergunta 2
   keys:
     unit: 
-      equal: "Dólares estadounidenses"
-- name: Pregunta 3
+      equal: "Dólares estadunidenses"
+- name: Pergunta 3
   keys:
     total_people: 
-      equal: "La cantidad total de personas que acompañó al crucerista"
-- name: Pregunta 4
+      equal: "O número total de pessoas que acompanharam o passageiro"
+- name: Pergunta 4
   keys:
     visits_amount: 
-      equal: "La cantidad de visitas que cada persona hizo previamente"
+      equal: "O número de visitas que cada pessoa fez anteriormente"
