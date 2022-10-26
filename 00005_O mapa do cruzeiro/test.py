@@ -23,7 +23,7 @@ class Test(unittest.TestCase):
     
     self.assertEquals(indexed.loc[5823, "region"], "Nacional")
     
-  def test_cruzeiros_do_usa_são_nan(self):
+  def test_cruzeiros_do_uea_são_nan(self):
     indexado = cruises.set_index("cruise_id")
     
     self.assertTrue(pd.isna(indexed.loc[8829, "region"]))
