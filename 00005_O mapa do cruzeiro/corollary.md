@@ -1,4 +1,3 @@
-¡Excelente!
+Excelente! :clap:
 
-Ahora ya tenemos valores para los cruceros de la región, pero nos quedaron muchos `nan`, ¡vamos a arreglarlo!
-
+Agora já temos valores para os cruzeiros da região, mas sobrou muitos `nan`, vamos consertar!

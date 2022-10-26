@@ -1,15 +1,15 @@
-:bulb: `map` no sólo puede tomar un diccionario como argumento, sino también una función que transforme individualmente a cada elemento:
+`map` pode utilizar não apenas um dicionário como argumento, mas também uma função que transforma individualmente cada elemento:
+
 
 ```python
-
-def convertir_sector(sector):
+def transformar_setor(sector):
  if sector.startswith("Público"):
    return "Público"
  elif sector == "Privado comercial":
    return "Privado"
  else:
    return "Comunitarios e Independientes"
-
+   
 ム cines["sector"].map(convertir_sector)
 0                            Privado
 1                            Privado
@@ -24,4 +24,4 @@ def convertir_sector(sector):
 328    Comunitarios e Independientes
 ```
 
- Si te resulta más cómodo, podés también resolver este ejercicio de esa manera. 
+Se achar melhor pra você, também poderá resolver este exercício dessa forma… 
