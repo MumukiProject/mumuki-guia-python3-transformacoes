@@ -1,15 +1,17 @@
-Agregar nuevas columnas a una tabla existente es sencillo: ¡sólo tenemos que usar el operador de asignación sobre una columna en particular! 
+Adicionar novas colunas a uma tabela existente é fácil: basta usar o operador de atribuição em uma coluna específica!
+
 
 ```python
-tabla["columna"] = un_series
+tabela["coluna"] = um_series
 ```
 
-Cuando hacemos ésto, si la columna no existe ya, será creada, y en caso contrario, será reemplazada. El verdadero problema entonces consiste en _con qué_ asignar esa columna. ¿Cómo podemos generar `Series` que nos sean útiles? 🤔
+Quando fazemos isso, se a coluna ainda não existir, ela será criada, caso contrário será substituída. O verdadeiro problema então consiste em _com o que_ atribuir essa coluna. Como podemos gerar `Series` que sejam úteis? 🤔
 
-Una forma consiste en usar`map` 🗺️, que nos permitirá transformar valores en base a un diccionario. Si por ejemplo quisiéramos categorizar de forma más sencilla los `cines` públicos, privados y comunitarios en una nueva columna `sector_type`, podríamos hacer esto:
+Uma forma é usar `map` 🗺️, que  transforma valores com base em um dicionário. Se, por exemplo, quisermos categorizar mais facilmente `cinemas` públicos, privados e comunitários em uma nova coluna `sector_type`, poderíamos fazer isso:
+
 
 ```python
-ム cines["sector"]
+ム cinemas["setor"]
 0          Privado comercial
 1          Privado comercial
 2          Privado comercial
@@ -18,11 +20,11 @@ Una forma consiste en usar`map` 🗺️, que nos permitirá transformar valores 
                ...          
 324        Privado comercial
 325        Privado comercial
-326         Público nacional
+326        Público nacional
 327        Público municipal
-328    Privado independiente
+328        Privado independente
 
-ム cines["sector_type"] = cines["sector"].map({
+ム cinemas["sector_type"] = cinemas["setor"].map({
     "Público municipal": "Público", 
     "Público provincial": "Público", 
     "Público nacional": "Público", 
@@ -30,7 +32,7 @@ Una forma consiste en usar`map` 🗺️, que nos permitirá transformar valores 
     "Otros": "Comunitarios e Independientes",
     "Privado independiente": "Comunitarios e Independientes",
     "Privado comunitario": "Comunitarios e Independientes"})
-ム cines["sector_type"]
+ム cinemas["sector_type"]
 0                            Privado
 1                            Privado
 2                            Privado
@@ -44,17 +46,17 @@ Una forma consiste en usar`map` 🗺️, que nos permitirá transformar valores 
 328    Comunitarios e Independientes
 ```
 
-En caso que no hayamos contemplado algún valor de entrada tendremos `nan` en la columna. Por ejemplo, si hubiéramos omitido `"Público municipal"` en nuestro `map`, el `sector_type` hubiera quedado como `nan` en las filas correspondientes a ese sector.: 
+Caso não tenhamos contemplado nenhum valor de entrada teremos `nan` na coluna. Por exemplo, se tivéssemos omitido `"Público municipal"` do nosso `map`, o `sector_type` teria sido deixado como `nan` nas linhas correspondentes a esse setor:
 
 ```python
-ム cines["sector_type"] = cines["sector"].map({
+ム cinemas["sector_type"] = cinemas["setor"].map({
     "Público provincial": "Público",
     "Público nacional": "Público",
     "Privado comercial": "Privado",
     "Otros": "Comunitarios e Independientes",
     "Privado independiente": "Comunitarios e Independientes",
     "Privado comunitario": "Comunitarios e Independientes"})
-ム cines["sector_type"]
+ム cinemas["sector_type"]
 0                            Privado
 1                            Privado
 2                            Privado
@@ -68,5 +70,4 @@ En caso que no hayamos contemplado algún valor de entrada tendremos `nan` en la
 328    Comunitarios e Independientes
 ```
 
-
-> ¡Probémoslo! Escribí una expresión que te permita crear la columna `region` en nuestro `DataFrame`  con el valor `"Nacional"` para los cruceros de Uruguay 🇺🇾 y  `"Regional"` para aquellos de Argentina 🇦🇷 y Brasil 🇧🇷. No nos vamos a preocupar por el resto de países por ahora. 
+> Vamos testar! Escreva uma expressão que permita criar a coluna `região` em nosso `DataFrame` com o valor `"National"` para cruzeiros do Uruguai 🇺🇾 e `"Regional"` para os cruzeiros da Argentina 🇦🇷 e do Brasil 🇧🇷. Não precisamos nos preocupar com o resto dos países por enquanto.
