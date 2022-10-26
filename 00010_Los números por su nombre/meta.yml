@@ -1,0 +1,42 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: En `cruceristas` no hay columnas que necesiten ser transformadas con `to_numeric`
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Si aplicamos `to_numeric` en un `Series` que sólo contiene números, fallará
+    con un `ValueError`
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Si aplicamos `to_numeric` en un `Series` que sólo contiene números, devolverá
+    una copia con los mismos valores
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Si aplicamos `to_numeric` en un `Series` que contiene strings no numéricos,
+    fallará con un `ValueError`
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Si aplicamos `to_numeric` en un `Series` que contiene números y strings numéricos,
+    fallará con un `ValueError`
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: '`numeros_tramposos` + `numeros_tramposos` devuelve un `Series` con los valores
+    `"44"`, `"99"` y `"88"`'
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`pd.to_numeric(numeros_tramposos) * 2 ` devuelve un `Series` con los valores
+    `8`, `18` y `16`"
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`to_numeric` modifica el `Series` original"
+  checked: false
+name: Los números por su nombre

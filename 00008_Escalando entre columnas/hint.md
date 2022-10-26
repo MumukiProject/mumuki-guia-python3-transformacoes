@@ -1,0 +1,1 @@
+Podemos obtener el valor absoluto de un `Series` haciendo `columna.abs()` o `abs(columna)`.

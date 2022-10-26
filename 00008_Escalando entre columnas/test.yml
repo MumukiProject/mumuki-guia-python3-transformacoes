@@ -1,0 +1,12 @@
+- name: 'Filas con diferencia mayor a cero'
+  keys:
+    countGt0:
+      equal: 613
+- name: 'Filas con diferencia mayor a 50'
+  keys:
+    countGt50:
+      equal: 108
+- name: 'Mayor diferencia'
+  keys:
+    maxDelta:
+      match: "^20000(.0)?$"

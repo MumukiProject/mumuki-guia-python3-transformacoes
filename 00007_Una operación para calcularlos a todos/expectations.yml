@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:ajustar_gastos
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity2:ajustar_gastos
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ajustar_gastos
+  inspection: Uses:copy

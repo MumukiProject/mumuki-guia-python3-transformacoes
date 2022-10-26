@@ -1,0 +1,28 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Antes de hacer `to_datetime`, los valores de la columna `date` eran de tipo
+    `object`.
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Antes de hacer `to_datetime`, los valores de la columna `date` eran de tipo
+    `datetime64`.
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Luego de hacer `to_datetime`, los valores de la columna `date` son de tipo
+    `object`.
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Luego de hacer `to_datetime`, los valores de la columna `date` son de tipo
+    `datetime64`.
+  checked: true
+name: Pongamos fecha
