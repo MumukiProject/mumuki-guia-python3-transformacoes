@@ -27,6 +27,6 @@ Com essa mudança, `paises` ficaria assim:
 |Colômbia|43593035|1141748|
 |México|107449525|1964375|
 
-> :mag: Observe que `cruise passageiros` tem uma coluna `total_expenses`, mas ela realmente reportará o valor total dos gastos? Haverá casos em que os gastos totais nele contidos não condizem com a soma dos gastos detalhados?
+> :mag: Observe que `cruzeiristas` tem uma coluna `total_expenses`, mas ela realmente reportará o valor total dos gastos? Haverá casos em que os gastos totais nele contidos não condizem com a soma dos gastos detalhados?
 >
 > :bulb: Para descobrir, crie uma coluna `actual_total_expenses` com a soma de todos os gastos e responda às seguintes perguntas. Que conclusões você pode tirar?
