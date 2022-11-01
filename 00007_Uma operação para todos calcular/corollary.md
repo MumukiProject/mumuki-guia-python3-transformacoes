@@ -1,5 +1,5 @@
-¡Muy bien! 👏 
+Muito bem! 👏 
 
-Como te imaginarás, este tipo de transformaciones están disponibles para todas las operaciones algebraicas, como `+`, `-`, `/`. Por ello es que nos serán muy útiles para cambiar las unidades y escalas de nuestros valores. 
+Como você pode imaginar, esses tipos de transformações estão disponíveis para todas as operações algébricas, como `+`, `-`, `/`. É por isso que eles nos serão muito úteis para mudar as unidades e escalas de nossos valores.
 
-¡Pero hay más formas de modificar nuestras columnas y crear nuevas!
+Mas há mais maneiras de modificar nossas colunas e criar novas!

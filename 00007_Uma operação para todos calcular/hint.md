@@ -1,3 +1,3 @@
-Uff, pero ¡hay que modificar muchas columnas! :dizzy_face:
+Uff, mas há muitas colunas para modificar! :dizzy_face:
 
-Notá que todas aquellas que nos interesa modificar terminan con `"_expenses"`. ¿Se podrá aprovechar eso para hacer tu código menos engorroso y repetitivo? No te olvides que podés obtener todos los nombres de columnas de un `DataFrame` haciendo `tabla.columns` y que podés iterar sobre ese resultado. :wink:
+Observe que todas aquelas que queremos modificar terminam com `"_expenses"`. Isso poderia ser usado para tornar seu código menos complicado e repetitivo? Não esqueça que você pode obter todos os nomes de coluna de um `DataFrame` fazendo `table.columns` e você pode iterar sobre esse resultado. :wink:
