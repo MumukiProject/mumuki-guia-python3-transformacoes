@@ -5,7 +5,7 @@ Na verdade, para evitar mais confusões, a partir de agora devemos chamar nossa 
 
 ```python
 # renomeie a variável
-passageiros = cruzeiros
+cruzeiristas = cruzeiros
 # remova a referência anterior, para que não possa ser reutilizada
 # com esse nome, usando o comando del
 del cruzeiros
