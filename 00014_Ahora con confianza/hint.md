@@ -1,1 +1,0 @@
-No te olvides de que contás con `rename` para renombrar columnas y de que podés utilizar todo lo visto en estas lecciones. :books:
