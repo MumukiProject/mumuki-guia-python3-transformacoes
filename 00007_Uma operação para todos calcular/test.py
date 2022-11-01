@@ -20,7 +20,7 @@ class Test(unittest.TestCase):
         'other_expenses': 2.0}])
   
   def test_ajustar_gastos_retorna_uma_copia_da_tabela(self):
-    self.assertTrue(ajustar_gastos(self.original, 1) is not self.original, "no debería devolver el mismo dataframe, sino una copia")    
+    self.assertTrue(ajustar_gastos(self.original, 1) is not self.original, "não deve retornar o mesmo dataframe, mas uma cópia")    
 
   def test_ajustar_gastos_com_1_retorna_uma_copia_identica_do_dataframe(self):
     self.assertEquals(ajustar_gastos(self.original, 1).to_dict(), self.original.to_dict())
@@ -40,7 +40,7 @@ class Test(unittest.TestCase):
         'transport_expenses': 20.0,
         'shopping_expenses': 6.0,
         'other_expenses': 4.0
-      }], ", feed_expenses, transport_expenses, shopping_expenses, other_expenses")
+      }], "debería haber duplicado tours_expenses, feed_expenses, transport_expenses, shopping_expenses, other_expenses")
 
 
   def test_ajustar_gastos_não_muda_as_colunas_que_não_tem_gastos(self):
