@@ -1,7 +1,7 @@
 `pandas` também nos permite operar em colunas para gerar novas `Series` de uma maneira muito semelhante ao que aprendemos no exercício anterior :person_climbing:. Por exemplo, se da nossa tabela hipotética de países...
 
 
-|país|população|área|
+|country|population|area|
 |---|---|---|
 |Argentina|39921833|2780400|
 |Bolívia|8989046|1098581|
