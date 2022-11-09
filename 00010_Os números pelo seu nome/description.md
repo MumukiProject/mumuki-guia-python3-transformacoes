@@ -5,14 +5,14 @@ Além de criar e modificar colunas com base em mapeamentos e cálculos, muitas v
 
 Seja por um motivo ou outro, devemos fazer conversões. Felizmente, `pandas` nos fornece `to_numeric` que transforma uma string de um número em... um número!
 
-``` python
+```python
 ム pd.to_numeric("97")
 97
 ```
 
 E funciona com `Series` também!
 
-``` python
+```python
 ム numeros_mentirosos = pd.Series(["4", "9", "8"])
 ム numeros_mentirosos
 0 4
