@@ -10,4 +10,4 @@ Por exemplo, a manipulação direta dos dados dificilmente nos dirá quem os ger
 
 Por todos estes motivos é imprescindível consultar também a descrição e os _metadados_ dos lotes de dados: informação sobre a informação, gerada por quem os produz e tentar responder a estas questões.
 
-> :bookmark_tabs: Consulte [os metadados do _dataset_ `cruceros`](https://github.com/MumukiProject/mumuki-datasets-metadata-analisis-datos-es/blob/main/cruceros.md) e responda o seguinte perguntas. Que conclusões você pode tirar? :thinking:
+> :bookmark_tabs: Consulte [os metadados do _dataset_ `cruceros`](https://github.com/MumukiProject/mumuki-datasets-metadata-analise-de-dados-pt/blob/main/cruzeiros.md) e responda o seguinte perguntas. Que conclusões você pode tirar? :thinking:
