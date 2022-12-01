@@ -9,7 +9,7 @@ del tabela["coluna"]
 
 ```python
 tabela.drop(
-  colunas=[
+  columns=[
     "primeira_coluna_a_remover",
     "segunda_coluna_a_remover",
     "terceira_coluna_a_remover"],
