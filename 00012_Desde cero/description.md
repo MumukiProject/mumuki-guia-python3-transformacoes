@@ -24,7 +24,7 @@ privados_vs_publicos
 Que nos permite comparar fácilmente la cantidad de pantallas de cines privados y públicos. En este caso podemos decir que tenemos 91 cines privados y 66 públicos con 1 pantalla. También que no tenemos cines públicos con 4 o 5 pantallas. 
 
 
-> 📞 ¡Llamada para vos! A partir de [éste lote de datos](https://docs.google.com/spreadsheets/d/e/2PACX-1vRSa9oM9fC-QlT7VOeGhZQtrWnlNSTsk3U8DWGTOXUWtPH6u9o5O5eZ0kTg8mFTwAn9vMdGRK7o2SPB/pub?gid=1178503202&single=true&output=csv) sobre antenas de telefonía en Chile, creá en tu cuaderno un `DataFrame` que contenga cuántas antenas se instalaron por región, en la década del 2000 y del 2010, respectivamente: 
+> 📞 ¡Llamada para vos! A partir de [éste lote de datos](https://docs.google.com/spreadsheets/d/e/2PACX-1vRSa9oM9fC-QlT7VOeGhZQtrWnlNSTsk3U8DWGTOXUWtPH6u9o5O5eZ0kTg8mFTwAn9vMdGRK7o2SPB/pub?gid=1436832020&single=true&output=csv) sobre antenas de telefonía en Chile, creá en tu cuaderno un `DataFrame` que contenga cuántas antenas se instalaron por región, en la década del 2000 y del 2010, respectivamente: 
 >
 >    
 > ||decada_2000|decada_2010|
