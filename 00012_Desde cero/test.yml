@@ -13,16 +13,16 @@
 - name: '¿En cuál región se instalaron menos antenas a los largo de estas dos décadas?'
   keys:
     less_antennas:
-      match: '^xi|XI|.*[Aa]ys[eé]n.*$'
+      equal: 'XI - Aysén'
 - name: '¿En cuál región se instalaron más antenas en la década de 2010?'
   keys:
     most_2010_antennas:
-      match: ^rm|RM|xiii|XIII|.*[Mm]etropolitana.*$
+      equal: 'RM (XIII) - Metropolitana'
 - name: 'Comparada con la década del 2000, ¿en cuál región la taza de instalación de antenas en los 2010 cayó mas?'
   keys:
     down:
-      match: ^xv|XV|.*[Aa]rica\s+[Yy]\s+[Pp]arinacota.*$
+      equal: 'XV - Arica y Parinacota'
 - name: 'Comparada con la década del 2000, ¿en cuál región la taza de instalación de antenas en los 2010 se mantuvo más alta?'
   keys:
     up:
-      match: ^xii|XII|.*[Mm]agallanes.*$     
+      equal: 'XII - Magallanes'
