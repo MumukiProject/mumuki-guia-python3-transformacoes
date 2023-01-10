@@ -25,4 +25,4 @@ choices:
   value: Luego de hacer `to_datetime`, los valores de la columna `date` son de tipo
     `datetime64`.
   checked: true
-name: Pongamos fecha
+name: Reserve a data
