@@ -1,18 +1,18 @@
-A lo largo de esta lección ya modificamos muchos `DataFrame`s ¡pero aún no creamos uno desde cero! Para hacerlo, escribiremos `pd.DataFrame()` y luego le iremos agregando las columnas que queremos. Por ejemplo, con el siguiente código...
+Ao longo desta lição já modificamos muitos `DataFrame`s, mas ainda não criamos nenhum do zero! Para fazer isso, vamos escrever `pd.DataFrame()` e depois adicionar as colunas que queremos. Por exemplo, com o seguinte código...
 
 ```python
-publicos = cines[cines["sector"] == "Público"]
-privados = cines[cines["sector"] == "Privado"]
+público = cinemas[cinemas["setor"] == "Público"]
+privado = cinemas[cinemas["setor"] == "Privado"]
 
-privados_vs_publicos = pd.DataFrame()
+private_vs_public = pd.DataFrame()
 privados_vs_publicos["privados"] = pd.value_counts(privados.screens)
-privados_vs_publicos["publicos"] = pd.value_counts(publicos.screens)
-privados_vs_publicos
+private_vs_public["publicos"] = pd.value_counts(public.screens)
+private_vs_public
 ```
 
-...obtendríamos un `DataFrame` de este estilo:
+... obteríamos um `DataFrame` como este:
 
-||privados|públicos|
+||privados|publicos|
 ---|---|---|
 1|91|66|
 2|43|5|
@@ -21,20 +21,21 @@ privados_vs_publicos
 5|15|NaN|
 (..)|(..)|(..)
 
-Que nos permite comparar fácilmente la cantidad de pantallas de cines privados y públicos. En este caso podemos decir que tenemos 91 cines privados y 66 públicos con 1 pantalla. También que no tenemos cines públicos con 4 o 5 pantallas. 
+Isso nos permite comparar facilmente o número de telas em cinemas privados e públicos. Neste caso podemos dizer que temos 91 cinemas privados e 66 públicos com 1 ecrã. Também que não temos cinemas públicos com 4 ou 5 salas.
 
+ 
 
-> 📞 ¡Llamada para vos! A partir de [éste lote de datos](https://docs.google.com/spreadsheets/d/e/2PACX-1vRSa9oM9fC-QlT7VOeGhZQtrWnlNSTsk3U8DWGTOXUWtPH6u9o5O5eZ0kTg8mFTwAn9vMdGRK7o2SPB/pub?gid=1436832020&single=true&output=csv) sobre antenas de telefonía en Chile, creá en tu cuaderno un `DataFrame` que contenga cuántas antenas se instalaron por región, en la década del 2000 y del 2010, respectivamente: 
+> 📞 Ligue para você! Deste [lote de dados sobre antenas telefônicas no Chile](https://docs.google.com/spreadsheets/d/e/2PACX-1vRSa9oM9fC-QlT7VOeGhZQtrWnlNSTsk3U8DWGTOXUWtPH6u9o5O5eZ0kTg8mFTwAn9vMdGRK7o2SPB/pub?gid=1436832020&single=true&output=csv), crie em seu caderno um `DataFrame` que contenha quantas antenas foram instaladas por região, nas décadas de 2000 e 2010, respectivamente:
 >
->    
-> ||decada_2000|decada_2010|
+>
+> ||2000_decade|2010_decade|
 > |---|---|---|
 > |I|100|50|
 > |II|20|30|
 > |III|30|10|
 > |(...)|
-> 
-> Luego, contestá las preguntas a continuación. 
+>
+> Em seguida, responda às perguntas abaixo.
 
 
 <style>
