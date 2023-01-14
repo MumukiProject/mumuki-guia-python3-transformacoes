@@ -12,13 +12,13 @@ Anna Prado|37|San Martin 1165|Argentina|
 
 ```python
 personas.rename(columns = {
-    "com_name": "complete_name",
-    "ag": "age",
-    "add": "address",
-   "count": "country"
+  "com_name": "full_name",
+  "ag": "age",
+  "add": "address",
+  "count": "country"
 })
 ```
 
-Para que esta operação tenha efeito no `DataFrame` original deveríamos escrever... exato!, `inplace=True`!
+Dessa forma, fica um pouco mais claro que as colunas representam nome completo, idade, endereço e país, respectivamente. Para que esta operação tenha efeito no `DataFrame` original deveríamos escrever... exato!, `inplace=True`!
 
 > Agora é a sua vez!  Renomeie no `DataFrame` em seu caderno as colunas `loc_code`, `prov_id` e `dep_id` por `city_id`, `province_id` e `department_id` respectivamente.
