@@ -14,7 +14,7 @@ del copia["coluna"]
 # a tabela original ainda está com a coluna eliminada!
 pd.value_counts(tabela["coluna"])
 # restauramos a versão original 
-cópia = tabela.copy()
+copia = tabela.copy()
 ```
 
 > Cole o seguinte código em seu caderno e vamos embarcar ao próximo exercício 🚢:
