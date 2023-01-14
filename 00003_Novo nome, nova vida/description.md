@@ -11,7 +11,7 @@ Anna Prado|37|San Martin 1165|Argentina|
 ... e quiséssemos obter o `DataFrame` com suas colunas renomeadas poderíamos escrever:
 
 ```python
-personas.rename(columns = {
+pessoas.rename(columns = {
   "com_name": "full_name",
   "ag": "age",
   "add": "address",
