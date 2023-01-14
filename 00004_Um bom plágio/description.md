@@ -21,6 +21,6 @@ copia = tabela.copy()
 >
 > ```python
 > import pandas as pd
-> cruzeiros_originais = pd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRSa9oM9fC-QlT7VOeGhZQtrWnlNSTsk3U8DWGTOXUWtPH6> u9o5O5eZ0kTg8mFTwAn9vMdGRK7o2SPB/pub?gid=751983160&single=true&output=csv")
+> cruzeiros_originais = pd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRSa9oM9fC-QlT7VOeGhZQtrWnlNSTsk3U8DWGTOXUWtPH6u9o5O5eZ0kTg8mFTwAn9vMdGRK7o2SPB/pub?gid=751983160&single=true&output=csv")
 > cruzeiros = cruzeiros_originais.copy()
 > ```
