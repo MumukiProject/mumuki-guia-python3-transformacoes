@@ -11,7 +11,7 @@ Uma forma é usar `map` 🗺️, que  transforma valores com base em um dicioná
 
 
 ```python
-ム cinemas["setor"]
+ム cinemas["sector"]
 0          Privado comercial
 1          Privado comercial
 2          Privado comercial
