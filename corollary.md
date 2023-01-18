@@ -1,3 +1,3 @@
-¡Felicitaciones! :tada: Terminaste este recorrido sobre análisis de datos con `pandas` :clap::clap::clap:
+Parabéns! :tada: Você terminou este tour de análise de dados com `pandas`. :park: 
 
-Ya sabés como cargar, agregar, agrupar, graficar, filtrar y transformar `DataFrames` y `Series`. ¡Bravo! :grin:
+Agora você sabe como carregar, agregar, agrupar, representar graficamente, filtrar e transformar `DataFrames` e `Series`. Bravo! :clap::clap::clap:
