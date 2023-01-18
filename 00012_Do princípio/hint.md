@@ -1,11 +1,11 @@
-:smile: Te dejamos algunas consideraciones y pistas para analizar estos datos:
+:smile: Aqui estão algumas considerações e pistas para analisar esses dados:
 
-1. :signal_strength: Recordá que las operaciones `idxmax` e `idxmin` te pueden ayudar a encontrar fácilmente los índices máximos y mínimos. 
-2. :calendar_spiral: La `Fecha Documento` nos puede dar una idea _aproximada_ de cuándo fue instalada la antena. 
-3. 🧹 Sólo nos interesan los datos de antenas asociadas a alguna región específica. ¡Quizás necesites hacer limpieza! 
-4. :flag_cl: Las regiones en Chile [ya no se denominan acorde a números](https://www.sernatur.cl/desde-ahora-regiones-solo-se-conoceran-por-su-nombre/), pero será común encontrarlos en lotes de datos anteriores a 2018: 
+1. :signal_strength: Lembre-se que as operações `idxmax` e `idxmin` podem ajudá-lo a encontrar facilmente os índices máximo e mínimo.
+2. :calendar_spiral: A `Fecha Documento` pode nos dar uma ideia _aproximada_ de quando a antena foi instalada.
+3. 🧹 Nos interessam apenas os dados de antenas associadas a uma região específica. Talvez você precise limpar!
+4. :flag_cl: As regiões do Chile [não são mais nomeadas por números](https://www.sernatur.cl/desde-ahora-regiones-solo-se-conoceran-por-su-nombre/), mas será comum encontrá-los em lotes de dados anteriores a 2018:
 
-|Antiguo Número|Nombre|
+|Número antigo|Nome|
 |---|---|
 |I|Tarapacá|
 |II|Antofagasta|
