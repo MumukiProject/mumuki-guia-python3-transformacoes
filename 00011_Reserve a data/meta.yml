@@ -10,19 +10,15 @@ teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Antes de hacer `to_datetime`, los valores de la columna `date` eran de tipo
-    `object`.
+  value: Antes de fazer `to_datetime`, os valores na coluna `date` eram do tipo `object`.
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Antes de hacer `to_datetime`, los valores de la columna `date` eran de tipo
-    `datetime64`.
+  value: Antes de fazer `to_datetime`, os valores na coluna `date` eram do tipo `datetime64`.
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Luego de hacer `to_datetime`, los valores de la columna `date` son de tipo
-    `object`.
+  value: Depois de fazer `to_datetime`, os valores da coluna `date` são do tipo `object`.
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Luego de hacer `to_datetime`, los valores de la columna `date` son de tipo
-    `datetime64`.
+  value: Depois de fazer `to_datetime`, os valores da coluna `date` são do tipo `datetime64`.
   checked: true
 name: Reserve a data
