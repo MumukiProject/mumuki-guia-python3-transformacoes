@@ -1,1 +1,1 @@
-Recordá que para saber el tipo de todas las columnas de una tabla (y averiguar si necesitan ser convertidas :wink:) podés usar `tabla.info()`
+Lembre-se que para saber o tipo de todas as colunas de uma tabela (e descobrir se elas precisam ser convertidas :wink:) você pode usar `tabela.info()`
