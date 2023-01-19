@@ -9,7 +9,7 @@ Outra maneira de criar colunas é a partir de operações _escalares_ aplicadas 
 |Colombia|43593035|440829|
 |Mexico|107449525|758445|
 
-...e precisamos fazer  alguns cálculos sobre eles. :eyes: Mas se prestamos detida atenção, notaremos que a área não está expressa em quilômetros quadrados (km²) como esperaríamos, mas em milhas quadradas (mi²), o qual pode ocorrer com certa frequência ao usar lotes de dados expressos no [sistema de unidades inglês](https://es.wikipedia.org/wiki/Sistema_anglosaj%C3%B3n_de_unidades) :shrug:.
+...e precisamos fazer  alguns cálculos sobre eles. :eyes: Mas se prestamos detida atenção, notaremos que a área não está expressa em quilômetros quadrados (km²) como esperaríamos, mas em milhas quadradas (mi²), o qual pode ocorrer com certa frequência ao usar lotes de dados expressos no [sistema de unidades inglês](https://pt.wikipedia.org/wiki/Unidade_inglesa) :shrug:.
 
 Para resolver isso, podemos aplicar, justamente, uma operação escalar:
 
