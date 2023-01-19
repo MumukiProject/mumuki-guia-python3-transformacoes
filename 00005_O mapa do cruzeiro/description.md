@@ -24,7 +24,7 @@ Uma forma é usar `map` 🗺️, que  transforma valores com base em um dicioná
 327        Público municipal
 328        Privado independente
 
-ム cinemas["sector_type"] = cinemas["setor"].map({
+ム cinemas["sector_type"] = cinemas["sector"].map({
     "Público municipal": "Público", 
     "Público provincial": "Público", 
     "Público nacional": "Público", 
