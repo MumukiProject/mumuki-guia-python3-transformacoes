@@ -1,13 +1,13 @@
 Ao longo desta lição já modificamos muitos `DataFrame`s, mas ainda não criamos nenhum do zero! Para fazer isso, vamos escrever `pd.DataFrame()` e depois adicionar as colunas que queremos. Por exemplo, com o seguinte código...
 
 ```python
-publico = cinemas[cinemas["setor"] == "Público"]
-privado = cinemas[cinemas["setor"] == "Privado"]
+publico = cinemas[cinemas["sector_type"] == "Público"]
+privado = cinemas[cinemas["sector_type"] == "Privado"]
 
-private_vs_public = pd.DataFrame()
-privados_vs_publicos["privados"] = pd.value_counts(privados["screens"])
-privados_vs_publicos["publicos"] = pd.value_counts(publico["screens"])
-privados_vs_publicos
+privado_vs_publico = pd.DataFrame()
+privado_vs_publico["privados"] = pd.value_counts(privado["screens"])
+privado_vs_publico["publicos"] = pd.value_counts(publico["screens"])
+privado_vs_publico
 ```
 
 ... obteríamos um `DataFrame` como este:
