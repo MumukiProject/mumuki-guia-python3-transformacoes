@@ -17,6 +17,6 @@
 
 Embora esta coluna não seja _original_ do lote de dados, ela e todas as informações que geramos e anexamos ao `DataFrame` podem ser usadas usando as ferramentas que aprendemos até agora. :grin:
 
-> Agora que temos a coluna `region` e entendemos o que nossos dados realmente representam, qual é a **média** de visitas prévias por região? Para responder a esta pergunta, gere a partir de `cruzeiristas` um `DataFrame` `visitas_prévias_por_região` contendo duas colunas `region` e `average_previous_visits`.
+> Agora que temos a coluna `region` e entendemos o que nossos dados realmente representam, qual é a **média** de visitas prévias por região? Para responder a esta pergunta, gere a partir de `cruzeiristas` um `DataFrame` `visitas_previas_por_regiao` contendo duas colunas `region` e `average_previous_visits`.
 
 
