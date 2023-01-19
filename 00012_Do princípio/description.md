@@ -21,7 +21,7 @@ privado_vs_publico
 5|15|NaN|
 (..)|(..)|(..)
 
-Isso nos permite comparar facilmente o número de telas em cinemas privados e públicos. Neste caso podemos dizer que temos 91 cinemas privados e 66 públicos com 1 ecrã. Também que não temos cinemas públicos com 4 ou 5 salas.
+Isso nos permite comparar facilmente o número de telas em cinemas privados e públicos. Neste caso podemos dizer que temos 91 cinemas privados e 66 públicos com 1 tela. Também que não temos cinemas públicos com 4 ou 5 salas.
 
  
 
