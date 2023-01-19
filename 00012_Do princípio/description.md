@@ -5,9 +5,9 @@ publico = cinemas[cinemas["setor"] == "Público"]
 privado = cinemas[cinemas["setor"] == "Privado"]
 
 private_vs_public = pd.DataFrame()
-privados_vs_publicos["privados"] = pd.value_counts(privados.screens)
-private_vs_public["publicos"] = pd.value_counts(public.screens)
-private_vs_public
+privados_vs_publicos["privados"] = pd.value_counts(privados["screens"])
+privados_vs_publicos["publicos"] = pd.value_counts(publico["screens"])
+privados_vs_publicos
 ```
 
 ... obteríamos um `DataFrame` como este:
