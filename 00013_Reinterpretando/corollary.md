@@ -1,7 +1,7 @@
 Bom! No final, nosso lote de dados `cruzeiros` era algo bem diferente do que pensávamos, certo? :face_with_hand_over_mouth:
  Não estava nem descrevendo cruzeiros, mas pessoas que fizeram cruzeiros e responderam a uma pesquisa. 🚶🧳
 
-Na verdade, para evitar mais confusões, a partir de agora devemos chamar nossa variável de `cruzeiros`... `passageiros`!
+Na verdade, para evitar mais confusões, a partir de agora devemos chamar nossa variável de `cruzeiros`... `cruzeiristas`!
 
 ```python
 # renomeie a variável
