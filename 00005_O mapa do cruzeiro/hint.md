@@ -10,7 +10,7 @@ def transformar_setor(sector):
   else:
     return "Comunitarios e Independientes"
    
-ム cines["sector"].map(convertir_sector)
+ム cines["sector"].map(convertir_setor)
 0                            Privado
 1                            Privado
 2                            Privado
