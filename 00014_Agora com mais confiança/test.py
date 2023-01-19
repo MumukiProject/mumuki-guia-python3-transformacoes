@@ -20,4 +20,4 @@ class Test(unittest.TestCase):
     self.assertTrue(self.indexado.loc["Regional", "average_previous_visits"] == 1.25)
     
   def test_contem_a_media_não_regional(self):
-    self.assertTrue(self.indexado.loc["No regional", "average_previous_visits"] == 0.5)            
+    self.assertTrue(self.indexado.loc["Não regional", "average_previous_visits"] == 0.5)            
