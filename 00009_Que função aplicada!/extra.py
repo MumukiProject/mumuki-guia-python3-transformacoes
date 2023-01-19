@@ -1,6 +1,6 @@
 import pandas as pd
 
-cruceristas = pd.DataFrame([{
+cruzeiristas = pd.DataFrame([{
   'cruise_id': 10404,
   'country_id': 19,
   'country': 'Brasil',
@@ -166,7 +166,7 @@ cruceristas = pd.DataFrame([{
   'transport_expenses': 0.0,
   'shopping_expenses': 0.0,
   'other_expenses': 210.0}])
-cruceristas["region"] = cruceristas["country"].map({
+cruzeiristas["region"] = cruzeiristas["country"].map({
   "Uruguay": "Nacional",
   "Argentina": "Regional",
   "Brasil": "Regional", 
