@@ -1,7 +1,7 @@
 Ao longo desta lição já modificamos muitos `DataFrame`s, mas ainda não criamos nenhum do zero! Para fazer isso, vamos escrever `pd.DataFrame()` e depois adicionar as colunas que queremos. Por exemplo, com o seguinte código...
 
 ```python
-público = cinemas[cinemas["setor"] == "Público"]
+publico = cinemas[cinemas["setor"] == "Público"]
 privado = cinemas[cinemas["setor"] == "Privado"]
 
 private_vs_public = pd.DataFrame()
