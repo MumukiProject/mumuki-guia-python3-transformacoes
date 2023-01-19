@@ -1,7 +1,7 @@
 - name: Pergunta 1
   keys:
     meaning: 
-      equal: "Um passageiro"
+      equal: "Um passageiro de cruzeiro"
 - name: Pergunta 2
   keys:
     unit: 
