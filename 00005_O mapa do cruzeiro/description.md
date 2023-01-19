@@ -70,4 +70,4 @@ Caso não tenhamos contemplado nenhum valor de entrada teremos `nan` na coluna. 
 328    Comunitarios e Independientes
 ```
 
-> Vamos testar! Escreva uma expressão que permita criar a coluna `region` em nosso `DataFrame` com o valor `"Nacional"` para cruzeiros do Uruguai 🇺🇾 e `"Regional"` para os cruzeiros da Argentina 🇦🇷 e do Brasil 🇧🇷. Não precisamos nos preocupar com o resto dos países por enquanto.
+> Vamos testar! Escreva uma expressão que permita criar a coluna `region` (_região_) em nosso `DataFrame` com o valor `"Nacional"` para cruzeiros do Uruguai 🇺🇾 e `"Regional"` para os cruzeiros da Argentina 🇦🇷 e do Brasil 🇧🇷. Não precisamos nos preocupar com o resto dos países por enquanto.
