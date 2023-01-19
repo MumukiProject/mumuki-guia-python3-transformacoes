@@ -24,4 +24,4 @@ def transformar_setor(sector):
 328    Comunitarios e Independientes
 ```
 
-Se achar melhor pra você, também poderá resolver este exercício dessa forma… 
+Se achar melhor pra você, também poderá resolver este exercício dessa forma :smile:
