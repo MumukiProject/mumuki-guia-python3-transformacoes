@@ -8,23 +8,23 @@ tabula.apply(funcao_que_transforma_uma_linha_inteira, axis="columns")
 Isso nos permitirá gerar colunas mais interessantes de maneira simples! :open_mouth: Por exemplo, se no exercício anterior tivéssemos uma função que calculasse diretamente os gastos totais...
 
 ```python
-# note que a_cruise_passenger não é um DataFrame,
+# note que cruzeirista não é um DataFrame,
 # mas um quase-dicionário representando
 # uma fila
-def calcular_total_despesas(one_cruiser):
-  Retorna (
-      a_cruiser['tours_expenses'] +
-      a_cruiser['feed_expenses'] +
-      a_cruiser['transport_expenses'] +
-      a_cruiser['shopping_expenses'] +
-      a_cruiser['other_expenses']
+def calcular_gasto_total(cruzeirista):
+  return (
+      cruzeirista['tours_expenses'] +
+      cruzeirista['feed_expenses'] +
+      cruzeirista['transport_expenses'] +
+      cruzeirista['shopping_expenses'] +
+      cruzeirista['other_expenses']
     )
 ```
 
-... poderíamos ter gerado `actual_total_expenses` assim:
+... poderíamos ter gerado `calcular_gasto_total` assim:
 
 ``` python
-cruzeiristas["actual_total_expenses"] = cruzeiristas.apply(calculate_total_expenses, axis="columns")
+cruzeiristas["actual_total_expenses"] = cruzeiristas.apply(calcular_gasto_total, axis="columns")
 ```
 
 E teria nos dado o mesmo resultado! :tada:
@@ -51,4 +51,4 @@ E teria nos dado o mesmo resultado! :tada:
 > * :earth_americas: o número de pessoas no grupo de cada cruzeirista (`total_people`), multiplicado pelo gasto total (`total_expenses`), caso contrário.
 >
 > Adicione a `cruzeiristas` uma coluna `estimated_foreign_income` com esta estimativa.
-. 
+ 
