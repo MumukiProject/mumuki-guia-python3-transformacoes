@@ -49,7 +49,7 @@ Uma forma é usar `map` 🗺️, que  transforma valores com base em um dicioná
 Caso não tenhamos contemplado nenhum valor de entrada teremos `nan` na coluna. Por exemplo, se tivéssemos omitido `"Público municipal"` do nosso `map`, o `sector_type` teria sido deixado como `nan` nas linhas correspondentes a esse setor:
 
 ```python
-ム cinemas["sector_type"] = cinemas["setor"].map({
+ム cinemas["sector_type"] = cinemas["sector"].map({
     "Público provincial": "Público",
     "Público nacional": "Público",
     "Privado comercial": "Privado",
