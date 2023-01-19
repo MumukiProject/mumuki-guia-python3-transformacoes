@@ -3,12 +3,12 @@
 
 ```python
 def transformar_setor(sector):
- if sector.startswith("Público"):
-   return "Público"
- elif sector == "Privado comercial":
-   return "Privado"
- else:
-   return "Comunitarios e Independientes"
+  if sector.startswith("Público"):
+    return "Público"
+  elif sector == "Privado comercial":
+    return "Privado"
+  else:
+    return "Comunitarios e Independientes"
    
 ム cines["sector"].map(convertir_sector)
 0                            Privado
