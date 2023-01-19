@@ -9,7 +9,7 @@
 - name: Pergunta 3
   keys:
     total_people: 
-      equal: "O número total de pessoas que acompanharam o passageiro"
+      equal: "O número total de pessoas que acompanharam o cruzeirista"
 - name: Pergunta 4
   keys:
     visits_amount: 
