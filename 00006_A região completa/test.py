@@ -1,7 +1,7 @@
 class Test(unittest.TestCase):
   
   def test_cruzeiros_tem_coluna_region(self):
-    self.assertTrue("region" em cruzeiros.colunas)
+    self.assertTrue("region" in cruzeiros.colunas)
     
 
   def test_cruzeiros_no_brasil_são_regionais(self):
