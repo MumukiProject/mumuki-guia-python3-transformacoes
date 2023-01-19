@@ -11,4 +11,4 @@ cruzeiristas = cruzeiros
 del cruzeiros
 ```
 
-Execute este código em seu caderno e nos vemos a seguir exercício para retomar nossa jornada transformadora.  ncoras para cima! :anchor:
+Execute este código em seu caderno e nos vemos a seguir exercício para retomar nossa jornada transformadora.  Âncoras ao mar! :anchor:
