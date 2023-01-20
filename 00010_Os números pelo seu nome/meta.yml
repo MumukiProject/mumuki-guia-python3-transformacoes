@@ -13,16 +13,16 @@ choices:
   value: Em `cruzeiristas` não há colunas que precisem ser transformadas com `to_numeric`
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Se aplicarmos `to_numeric` em uma `Series` que contém apenas números, ela
-    falhará com um `ValueError`
+  value: Se aplicarmos `to_numeric` em uma `Series` que contém apenas números, falhará
+    com um `ValueError`
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Se aplicarmos `to_numeric` em uma `Series` que contém apenas números, ela
-    retornará uma cópia com os mesmos valores
+  value: Se aplicarmos `to_numeric` em uma `Series` que contém apenas números, retornará
+    uma cópia com os mesmos valores
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: Se aplicarmos `to_numeric` em uma `Series` que contém strings não numéricas,
-    ela falhará com um `ValueError`
+    falhará com um `ValueError`
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: Se aplicarmos `to_numeric` em uma `Series` contendo números e strings numéricas,
