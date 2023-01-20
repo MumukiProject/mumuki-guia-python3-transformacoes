@@ -10,7 +10,7 @@ Caso tenhamos apenas strings "inteiras" em nossa coluna, outra operação útil 
 dtype: int64
 ```
 
-É importante notar que esta opção converte nossos dados para `int` e não funcionaria se tivéssemos strings "decimais";
+É importante notar que esta opção converte nossos dados para `int` e não funcionaria se tivéssemos strings "decimais":
 
 ```python
 ム pd.Series(["1.9", "12.0", "15.6"]).astype(int)
