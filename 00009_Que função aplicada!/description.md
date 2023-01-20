@@ -2,7 +2,7 @@ Algumas vezes nos depararemos com transformações mais complexas, que não cons
 
 ```python
 # ao usar apply desta forma, devemos sempre passar o argumento axis="columns"
-tabula.apply(funcao_que_transforma_uma_linha_inteira, axis="columns")
+tabela.apply(funcao_que_transforma_uma_linha_inteira, axis="columns")
 ```
 
 Isso nos permitirá gerar colunas mais interessantes de maneira simples! :open_mouth: Por exemplo, se no exercício anterior tivéssemos uma função que calculasse diretamente os gastos totais...
