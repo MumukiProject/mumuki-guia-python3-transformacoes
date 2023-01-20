@@ -18,7 +18,7 @@ E funciona com `Series` também!
 0 4
 1 9
 2 8
-dtype: objeto
+dtype: object
 ム pd.to_numeric(numeros_mentirosos)
 0 4
 1 9
