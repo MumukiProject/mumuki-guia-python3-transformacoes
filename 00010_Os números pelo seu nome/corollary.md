@@ -17,7 +17,7 @@ dtype: int64
 ValueError: invalid literal for int() with base 10: '1.9'
 ```
 
-Mas se fossem verdadeiros números decimas, `astype(int)` truncaria os valores: 
+Mas se fossem verdadeiros números decimais, `astype(int)` truncaria os valores: 
 
 ```python
 ム pd.Series([12.76, 45.2, 101]).astype(int)
