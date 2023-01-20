@@ -25,7 +25,7 @@ choices:
     falhará com um `ValueError`
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Se aplicarmos `to_numeric` em uma `Series` contendo números e strings numéricas,
+  value: Se aplicarmos `to_numeric` em uma `Series` que contém números e strings numéricas,
     falhará com um `ValueError`
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
