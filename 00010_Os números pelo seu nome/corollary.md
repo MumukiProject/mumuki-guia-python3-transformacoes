@@ -3,7 +3,7 @@ Impecável! 👏
 Caso tenhamos apenas inteiros em nossa coluna, outra operação útil é `astype` com o argumento `int`:
 
 ``` python
-ム cheater_numbers.astype(int)
+ム numeros_mentirosos.astype(int)
 0 4
 1 9
 2 8
