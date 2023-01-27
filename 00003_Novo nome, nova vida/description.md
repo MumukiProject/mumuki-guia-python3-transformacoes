@@ -1,4 +1,4 @@
-Ao trabalhar com lotes de dados é normal que os nomes das colunas não sejam os melhores. Mas, ainda bem que temos a solução, ¡`rename`! 
+Ao trabalhar com lotes de dados é normal que os nomes das colunas não sejam os melhores. Mas, ainda bem que temos a solução, `rename`! 
 
 `rename`  permite, através de um dicionário, renomear colunas. Por exemplo, se tivéssemos o seguinte lote `pessoas` com uma escolha de nomes inexpressivos...
 
