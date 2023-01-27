@@ -2,7 +2,7 @@ Adicionar novas colunas a uma tabela existente é fácil: basta usar o operador 
 
 
 ```python
-tabela["coluna"] = um_series
+tabela["coluna"] = uma_series
 ```
 
 Quando fazemos isso, se a coluna ainda não existir, ela será criada, caso contrário será substituída. O verdadeiro problema então consiste em _com o que_ atribuir essa coluna. Como podemos gerar `Series` que sejam úteis? 🤔
