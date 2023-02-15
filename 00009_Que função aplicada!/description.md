@@ -30,7 +30,7 @@ cruzeiristas["actual_total_expenses"] = cruzeiristas.apply(calcular_gasto_total,
 E teria nos dado o mesmo resultado! :tada:
 
 ``` python
-ム cruzeiristas["actual_total_expenses"]
+ムcruzeiristas["actual_total_expenses"]
 0 0,00
 1.200,00
 2 100,00

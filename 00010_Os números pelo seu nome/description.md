@@ -6,20 +6,20 @@ Além de criar e modificar colunas com base em mapeamentos e cálculos, muitas v
 Seja por um motivo ou outro, devemos fazer conversões. Felizmente, `pandas` nos fornece `to_numeric` que transforma uma string de um número em... um número!
 
 ```python
-ム pd.to_numeric("97")
+ムpd.to_numeric("97")
 97
 ```
 
 E funciona com `Series` também!
 
 ```python
-ム numeros_mentirosos = pd.Series(["4", "9", "8"])
-ム numeros_mentirosos
+ムnumeros_mentirosos = pd.Series(["4", "9", "8"])
+ムnumeros_mentirosos
 0 4
 1 9
 2 8
 dtype: object
-ム pd.to_numeric(numeros_mentirosos)
+ムpd.to_numeric(numeros_mentirosos)
 0 4
 1 9
 2 8

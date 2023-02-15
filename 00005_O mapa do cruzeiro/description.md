@@ -11,7 +11,7 @@ Uma forma é usar `map` 🗺️, que  transforma valores com base em um dicioná
 
 
 ```python
-ム cinemas["sector"]
+ムcinemas["sector"]
 0          Privado comercial
 1          Privado comercial
 2          Privado comercial
@@ -24,7 +24,7 @@ Uma forma é usar `map` 🗺️, que  transforma valores com base em um dicioná
 327        Público municipal
 328        Privado independente
 
-ム cinemas["sector_type"] = cinemas["sector"].map({
+ムcinemas["sector_type"] = cinemas["sector"].map({
     "Público municipal": "Público", 
     "Público provincial": "Público", 
     "Público nacional": "Público", 
@@ -32,7 +32,7 @@ Uma forma é usar `map` 🗺️, que  transforma valores com base em um dicioná
     "Otros": "Comunitarios e Independientes",
     "Privado independiente": "Comunitarios e Independientes",
     "Privado comunitario": "Comunitarios e Independientes"})
-ム cinemas["sector_type"]
+ムcinemas["sector_type"]
 0                            Privado
 1                            Privado
 2                            Privado
@@ -49,14 +49,14 @@ Uma forma é usar `map` 🗺️, que  transforma valores com base em um dicioná
 Caso não tenhamos contemplado nenhum valor de entrada teremos `nan` na coluna. Por exemplo, se tivéssemos omitido `"Público municipal"` do nosso `map`, o `sector_type` teria sido deixado como `nan` nas linhas correspondentes a esse setor:
 
 ```python
-ム cinemas["sector_type"] = cinemas["sector"].map({
+ムcinemas["sector_type"] = cinemas["sector"].map({
     "Público provincial": "Público",
     "Público nacional": "Público",
     "Privado comercial": "Privado",
     "Otros": "Comunitarios e Independientes",
     "Privado independiente": "Comunitarios e Independientes",
     "Privado comunitario": "Comunitarios e Independientes"})
-ム cinemas["sector_type"]
+ムcinemas["sector_type"]
 0                            Privado
 1                            Privado
 2                            Privado

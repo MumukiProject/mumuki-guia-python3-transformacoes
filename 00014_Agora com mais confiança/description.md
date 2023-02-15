@@ -1,7 +1,7 @@
 :ocean: De volta ao mar, vamos dar uma olhada na _região_ que criamos anteriormente:
 
 ```python
-ム cruzeiristas["region"]
+ムcruzeiristas["region"]
 0        Não regional
 1        Não regional
 2        Não regional
