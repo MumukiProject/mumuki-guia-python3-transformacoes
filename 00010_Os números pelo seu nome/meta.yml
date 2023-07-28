@@ -8,35 +8,28 @@ extra_visible: false
 language: text
 teacher_info: ''
 manual_evaluation: false
+progressive_expectations: false
 choices:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Em `cruzeiristas` não há colunas que precisem ser transformadas com `to_numeric`
+- value: Em `cruzeiristas` não há colunas que precisem ser transformadas com `to_numeric`
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Se aplicarmos `to_numeric` em uma `Series` que contém apenas números, falhará
+- value: Se aplicarmos `to_numeric` em uma `Series` que contém apenas números, falhará
     com um `ValueError`
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Se aplicarmos `to_numeric` em uma `Series` que contém apenas números, retornará
+- value: Se aplicarmos `to_numeric` em uma `Series` que contém apenas números, retornará
     uma cópia com os mesmos valores
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Se aplicarmos `to_numeric` em uma `Series` que contém strings não numéricas,
+- value: Se aplicarmos `to_numeric` em uma `Series` que contém strings não numéricas,
     falhará com um `ValueError`
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Se aplicarmos `to_numeric` em uma `Series` que contém números e strings numéricas,
+- value: Se aplicarmos `to_numeric` em uma `Series` que contém números e strings numéricas,
     falhará com um `ValueError`
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: '`numeros_mentirosos` + `numeros_mentirosos` retorna uma `Series` com os
+- value: '`numeros_mentirosos` + `numeros_mentirosos` retorna uma `Series` com os
     valores `"44"`, `"99"` e `"88"`'
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`pd.to_numeric(numeros_mentirosos) * 2 ` retorna uma `Series` com os valores
+- value: "`pd.to_numeric(numeros_mentirosos) * 2 ` retorna uma `Series` com os valores
     `8`, `18` e `16`"
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`to_numeric` modifica a `Series` original"
+- value: "`to_numeric` modifica a `Series` original"
   checked: false
 name: Os números pelo seu nome
